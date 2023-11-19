@@ -47,9 +47,10 @@ export interface CarProps{
 }
 
  export interface OptionProps{
-
   title:string;
-  value:string
+  value:string;
+  type?: string;
+
  }
 
  export interface CustomFilterProps{
